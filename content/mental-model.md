@@ -3,7 +3,7 @@ type: dots
 url: /dots/mental-model/
 title: Mental Model
 date: 2026-11-09
-draft: false
+draft: true
 ---
 
 A mental model is a simplified way to understand how something works. Models
