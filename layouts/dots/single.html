@@ -3,13 +3,6 @@
   <article>
     <h1>{{ .Title }}</h1>
     {{ .Content }}
-    {{ with .Params.parent }}
-      {{ $parentName := . }}
-      {{ $parent := where (where site.RegularPages "Type" "dots") "File.ContentBaseName" $parentName }}
-      {{ with index $parent 0 }}
-        <p>Part of <a href="{{ .RelPermalink }}">{{ .Title }}</a>.</p>
-      {{ end }}
-    {{ end }}
     {{ partial "dots/links.html" . }}
   </article>
 {{ end }}

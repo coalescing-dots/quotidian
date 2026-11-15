@@ -4,7 +4,7 @@ url: /dots/inversion/
 title: Inversion
 date: 2026-11-09
 draft: false
-parent: mental-model
+map: false
 ---
 
 Instead of asking only how to succeed, ask what would reliably cause failure,

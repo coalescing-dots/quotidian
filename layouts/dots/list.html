@@ -1,12 +1,10 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
-{{ .Content }} {{ $notes := .RegularPages.ByTitle }} {{ $rootNotes := slice }}
-{{ range $notes }} {{ if not .Params.parent }} {{ $rootNotes = $rootNotes |
-append . }} {{ end }} {{ end }}
+{{ .Content }} {{ $maps := where .RegularPages.ByTitle "Params.map" true }}
 
-<section class="zettel-all-notes" aria-labelledby="top-level-heading">
-  <h2 id="top-level-heading">Starting Points</h2>
-  {{ with $rootNotes }}
+<section class="zettel-all-notes" aria-labelledby="maps-heading">
+  <h2 id="maps-heading">Maps</h2>
+  {{ with $maps }}
   <ul class="zettel-index">
     {{ range . }}
     <li class="zettel-entry">
@@ -16,7 +14,7 @@ append . }} {{ end }} {{ end }}
     {{ end }}
   </ul>
   {{ else }}
-  <p>No top-level notes yet.</p>
+  <p>No maps yet.</p>
   {{ end }}
 </section>
 {{ end }}

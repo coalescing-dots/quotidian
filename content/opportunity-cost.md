@@ -4,7 +4,7 @@ url: /dots/opportunity-cost/
 title: Opportunity Cost
 date: 2026-11-09
 draft: false
-parent: mental-model
+map: false
 ---
 
 Every choice uses resources that could have gone to something else. The real

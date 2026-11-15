@@ -4,6 +4,7 @@ url: /dots/philosophy/
 title: Philosophy
 date: 2026-11-15
 draft: false
+map: true
 ---
 There are many definitions of Philosophy and most of them are excellent. However, I feel that any student of philosophy should have his/her own definition. This is mine at present.
 

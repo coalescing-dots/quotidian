@@ -4,7 +4,7 @@ url: /dots/margin-of-safety/
 title: Margin of Safety
 date: 2026-11-09
 draft: false
-parent: mental-model
+map: false
 ---
 
 Plans depend on estimates, and estimates can be wrong. A margin of safety leaves
