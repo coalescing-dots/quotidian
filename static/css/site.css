@@ -302,23 +302,16 @@ a:hover {
   object-fit: contain;
 }
 
-.thinking-note {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-}
-
-.thinking-note-icon {
-  flex: 0 0 96px;
+img[src="/images/thinking-face-dark.svg"] {
+  display: inline-block;
   width: 96px;
   height: 96px;
+  margin: 0 1rem 0.5rem 0;
+  object-fit: contain;
+  vertical-align: top;
   content: url("/images/thinking-face-dark.svg");
 }
 
-html[data-theme="light"] .thinking-note-icon {
+html[data-theme="light"] img[src="/images/thinking-face-dark.svg"] {
   content: url("/images/thinking-face-light.svg");
-}
-
-.thinking-note p {
-  margin-top: 0;
 }

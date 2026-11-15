@@ -12,7 +12,4 @@ cover_attribution: ""
 
 ## Notes
 
-<div class="thinking-note">
-  <img class="thinking-note-icon" src="/images/thinking-face-dark.svg" alt="Thinking face" />
-  <p>Every since I discovered Greek philosopher Aristotle in my high school, I had an interest in philosophy. After recommendation from a teacher, I started reading Sophie's World as an introduction to philosophy and specifically western philosophy. These are some <a href="/how-i-take-notes">notes</a> I took while reading the book.</p>
-</div>
+Every since I discovered Greek philosopher Aristotle in my high school, I had an interest in [Philosophy](map-philosophy.md). After recommendation from a teacher, I started reading Sophie's World as an introduction to philosophy and specifically western philosophy. These are some [notes](how-i-take-notes.md) I took while reading the book.

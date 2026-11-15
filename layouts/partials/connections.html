@@ -1,0 +1,41 @@
+{{ $note := . }}
+{{ $pages := site.RegularPages }}
+{{ $noteTarget := printf "](%s.md)" .File.ContentBaseName }}
+{{ $outgoing := slice }}
+{{ $incoming := slice }}
+{{ range $pages }}
+  {{ $target := printf "](%s.md)" .File.ContentBaseName }}
+  {{ if and (ne .RelPermalink $note.RelPermalink) (strings.Contains $note.RawContent $target) }}
+    {{ $outgoing = $outgoing | append . }}
+  {{ end }}
+  {{ if and (ne .RelPermalink $note.RelPermalink) (strings.Contains .RawContent $noteTarget) }}
+    {{ $incoming = $incoming | append . }}
+  {{ end }}
+{{ end }}
+{{ if or $outgoing $incoming }}
+<h2>Connections</h2>
+<section class="zettel-links" aria-label="Note links">
+  <div>
+    <h2>To</h2>
+    <ul>
+      {{ range $outgoing }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+    {{ if not $outgoing }}
+    <p>None yet.</p>
+    {{ end }}
+  </div>
+  <div>
+    <h2>From</h2>
+    <ul>
+      {{ range $incoming }}
+      <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+      {{ end }}
+    </ul>
+    {{ if not $incoming }}
+    <p>None yet.</p>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
