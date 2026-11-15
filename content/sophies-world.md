@@ -12,4 +12,4 @@ cover_attribution: ""
 
 ## Notes
 
-Every since I discovered Greek philosopher Aristotle in my high school, I had an interest in [Philosophy](map-philosophy.md). After recommendation from a teacher, I started reading Sophie's World as an introduction to philosophy and specifically western philosophy. These are some [notes](how-i-take-notes.md) I took while reading the book.
+My introduction to Greek philosophers was in high school when I first came across Aristotle. Since then, I have had an interest in [Philosophy](map-philosophy.md). After a recommendation from a teacher, I started reading Sophie's World as an introduction to philosophy and specifically Western philosophy. These are some [notes](how-i-take-notes.md) I took while reading the book.
