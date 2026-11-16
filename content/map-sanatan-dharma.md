@@ -9,13 +9,13 @@ map: true
 
 ## Upanishads
 
-1. Isha (Isavasya) Shukla Yajurveda
-2. Kena Samaveda
-3. Katha Krishna Yajurveda
-4. Prashna Atharvaveda
-5. Mundaka Atharvaveda
-6. Mandukya Atharvaveda
-7. Taittiriya Krishna Yajurveda
-8. Aitareya Rigveda
-9. Chandogya Samaveda
-10. Brihadaranyaka Shukla Yajurveda
+1. [Isha (Isavasya)](isha-upanishad.md) [Yajurveda](yajurveda.md)
+2. [Kena](kena-upanishad.md) [Samveda](samveda.md)
+3. [Katha](katha-upanishad.md) [Yajurveda](yajurveda.md)
+4. [Prashna](prashna-upanishad.md) [Atharvaveda](atharvaveda.md)
+5. [Mundaka](mundaka.md) [Atharvaveda](atharvaveda.md)
+6. [Mandukya](mandukya.md) [Atharvaveda](atharvaveda.md)
+7. [Taittiriya](taittiriya.md) [Yajurveda](yajurveda.md)
+8. [Aitareya](aitareya.md) [Rigveda](rigveda.md)
+9. [Chandogyka](chandogya.md) [Samveda](samveda.md)
+10. [Brihadaranyaka](brihadaranyaka.md) [Yajurveda](yajurveda.md)

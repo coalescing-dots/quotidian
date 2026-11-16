@@ -8,17 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5bf976f2d2960a70",
+            "id": "23ba188892204019",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "map-philosophy.md",
+                "file": "map-sanatan-dharma.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "map-philosophy"
+              "title": "map-sanatan-dharma"
+            }
+          },
+          {
+            "id": "aa5f7ef90f41baa3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "isha-upanishad.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "isha-upanishad"
             }
           }
         ]
@@ -99,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "map-philosophy.md",
+                "file": "map-sanatan-dharma.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "map-philosophy.md",
+                "file": "map-sanatan-dharma.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -161,7 +175,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "map-philosophy.md",
+                "file": "map-sanatan-dharma.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -188,11 +202,24 @@
       "bases:Create new base": false
     }
   },
-  "active": "5bf976f2d2960a70",
+  "active": "23ba188892204019",
   "lastOpenFiles": [
+    "isha-upanishad.md",
     "map-sanatan-dharma.md",
-    "sites-i-like.md",
+    "brihadaranyaka.md",
+    "chandogya.md",
+    "aitareya.md",
+    "taittiriya.md",
+    "mundaka.md",
+    "mandukya.md",
+    "atharvaveda.md",
+    "prashna-upanishad.md",
+    "yajurveda.md",
+    "katha-upanishad.md",
+    "samveda.md",
+    "kena-upanishad.md",
     "map-philosophy.md",
+    "sites-i-like.md",
     "collectors-trap.md",
     "how-i-take-notes.md",
     "Untitled.md",
