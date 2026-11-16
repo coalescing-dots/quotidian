@@ -1,5 +1,5 @@
 {{ define "main" }}
-  <p><a href="/books/">&larr; Books</a></p>
+  <p><a href="{{ "books/" | relURL }}">&larr; Books</a></p>
   <article>
     <h1>{{ .Title }}</h1>
     {{ with .Params.book_author }}<p>By {{ . }}</p>{{ end }}
@@ -8,7 +8,7 @@
     {{ end }}
     {{ with .Params.cover }}
       <figure>
-        <img class="book-cover-thumbnail" src="{{ . | relURL }}" alt="Cover of {{ $.Title }}" />
+        <img class="book-cover-thumbnail" src="{{ strings.TrimPrefix "/" . | relURL }}" alt="Cover of {{ $.Title }}" />
         {{ with $.Params.cover_attribution }}<figcaption>{{ . }}</figcaption>{{ end }}
       </figure>
     {{ end }}

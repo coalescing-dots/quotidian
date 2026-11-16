@@ -47,10 +47,10 @@
           />
         </svg>
       </button>
-      <a href="/">Home</a>
-      <a href="/log/">Log</a>
-      <a href="/dots/">Dots</a>
-      <a href="/books/">Books</a>
+      <a href="{{ .Site.BaseURL }}">Home</a>
+      <a href="{{ "log/" | relURL }}">Log</a>
+      <a href="{{ "dots/" | relURL }}">Dots</a>
+      <a href="{{ "books/" | relURL }}">Books</a>
     </nav>
 
     <main>{{ block "main" . }}{{ .Content }}{{ end }}</main>

@@ -1,4 +1,4 @@
-baseURL = 'https://quotidian.com/'
+baseURL = 'https://syd-geek.github.io/quotidian/'
 locale = 'en-au'
 title = 'Quotidian'
 enableGitInfo = true

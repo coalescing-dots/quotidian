@@ -302,16 +302,16 @@ a:hover {
   object-fit: contain;
 }
 
-img[src="/images/thinking-face-dark.svg"] {
+img[src$="thinking-face-dark.svg"] {
   display: inline-block;
   width: 96px;
   height: 96px;
   margin: 0 1rem 0.5rem 0;
   object-fit: contain;
   vertical-align: top;
-  content: url("/images/thinking-face-dark.svg");
+  content: url("../images/thinking-face-dark.svg");
 }
 
-html[data-theme="light"] img[src="/images/thinking-face-dark.svg"] {
-  content: url("/images/thinking-face-light.svg");
+html[data-theme="light"] img[src$="thinking-face-dark.svg"] {
+  content: url("../images/thinking-face-light.svg");
 }

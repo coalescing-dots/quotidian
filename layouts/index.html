@@ -14,7 +14,7 @@
   </ul>
   <h2>Dots</h2>
   <p>A web of interconnected ideas.</p>
-  <p><a href="/dots/">Explore the idea network</a></p>
+  <p><a href="{{ "dots/" | relURL }}">Explore the idea network</a></p>
   <h2>Books</h2>
   <ul>
     {{ range first 5 (where site.RegularPages "Type" "books").ByDate.Reverse }}
@@ -28,9 +28,9 @@
         {{ end }}
       </li>
     {{ else }}
-      <li>No book reviews yet. <a href="/books/">Browse Books</a></li>
+      <li>No book reviews yet. <a href="{{ "books/" | relURL }}">Browse Books</a></li>
     {{ end }}
   </ul>
-  <p><a href="/books/">Browse all books</a></p>
+  <p><a href="{{ "books/" | relURL }}">Browse all books</a></p>
   {{ partial "tags.html" .}}
 {{ end }}
