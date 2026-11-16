@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "eb0e8e39bf7447d6",
+        "id": "c15b058e9498b84c",
         "type": "tabs",
         "children": [
           {
-            "id": "c142326e3a60ab09",
+            "id": "5bf976f2d2960a70",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "map-philosophy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "map-philosophy"
             }
           }
         ]
@@ -95,6 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "map-philosophy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "map-philosophy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -155,6 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "map-philosophy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -181,8 +188,10 @@
       "bases:Create new base": false
     }
   },
-  "active": "c142326e3a60ab09",
+  "active": "5bf976f2d2960a70",
   "lastOpenFiles": [
+    "map-sanatan-dharma.md",
+    "sites-i-like.md",
     "map-philosophy.md",
     "collectors-trap.md",
     "how-i-take-notes.md",
